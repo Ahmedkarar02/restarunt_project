@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 require('dotenv').config();
 
 const sequelize = new Sequelize(
-    "mysql://root:JMDaHgChIGhYnUrvyVrIwhwtrcmmYdAn@autorack.proxy.rlwy.net:47093/railway"
+    "mysql://root:AwCKmlCIyFlOHxCyWHqHUnSLTnOTYeDh@junction.proxy.rlwy.net:53708/railway"
 );
 
 const connectDB = async () => {
