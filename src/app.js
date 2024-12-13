@@ -1,6 +1,7 @@
 const express = require('express');
 const { connectDB } = require('./config/db');
-require('dotenv').config();
+const config = require('../config/config.js'); // Adjust the path if necessary
+// require('dotenv').config();
 const errorHandler = require('./config/errorHandler');
 const authRoutes = require('./routes/authRoutes');
 const { authenticate, authorize } = require('./middlewares/authMiddleware');
